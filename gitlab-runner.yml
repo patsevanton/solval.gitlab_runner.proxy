@@ -1,0 +1,4 @@
+- hosts: gitlab-runner
+  become: yes
+  roles:
+    - solval.gitlab_runner

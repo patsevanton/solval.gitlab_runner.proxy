@@ -1,0 +1,15 @@
+---
+environment:
+  http_proxy: http://192.168.88.249:3128
+  https_proxy: http://192.168.88.249:3128
+gitlab_runner_list:
+  - description: Runner 1 example
+    url: http://gitlab.example.com/
+    executor: shell
+    registration-token: sRhPFLnabM9D9AM_MDwc
+    tag-list: tag1,tag2,tag3
+  - description: Runner 2 example
+    url: http://gitlab.example.com/
+    executor: shell
+    registration-token: sRhPFLnabM9D9AM_MDwc
+    tag-list: tag5,tag6,tag7
